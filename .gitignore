@@ -1,0 +1,16 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# PyInstaller 构建产物
+build/
+dist/
+
+# 运行日志
+btb_logs/
+*.log
+
+# 本地测试 / 真实订单配置（含 Cookie、购票人、手机号等敏感信息，切勿提交）
+test.json
+*.local.json
+订单.json

@@ -1,0 +1,14 @@
+requests>=2.31.0
+httpx[http2,brotli,zstandard]>=0.25.0
+loguru>=0.7.0
+ntplib>=0.4.0
+qrcode>=7.4.0
+Pillow>=10.0.0
+
+# 终端 UI（与主仓库一致的 Textual TUI 显示）。
+# 若终端无法渲染或想要纯文本日志，可用 --no-tui 关闭；缺这两个依赖时也会自动回退。
+rich>=13.0.0
+textual>=0.50.0
+
+# 可选推送渠道（按需安装）
+# playsound3   # 音频通知（--notifier-config.audio-path）
